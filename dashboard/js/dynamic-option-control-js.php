@@ -1,0 +1,3 @@
+<script type="text/javascript">
+function onload_func(){$('.sgsc-container-input [sgsc-comp="cell_mapping"]').val(""),$(".sgsc-container-input input:required").each(function(n,o){$(this).closest(".sgsc-container-input").find(".sgsc-i-label").addClass("required-icon")})}$(document).on("change","[dynamic-option]",function(){var n=$(this).attr("dynamic-option"),o=$(this).find("option:selected").index();$('[sub-option="'+n+'"]').hide(),$('[sub-option="'+n+'"][option="'+o+'"]').show()}),$(document).on("change",'[sgsc-comp="type"]',function(){"Number"==$(this).val()?$(this).closest("[sgsc-popup]").find('[input-option="Number"]').show():$(this).closest("[sgsc-popup]").find('[input-option="Number"]').hide()}),$(document).ready(function(){onload_func()});
+</script>

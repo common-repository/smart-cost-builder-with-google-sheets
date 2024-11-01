@@ -1,0 +1,118 @@
+.sgsc-icons{
+  font-size: 14px;
+}
+
+.required-icon:after{
+    content: "\00a0 *";
+    color: red;
+}
+
+
+.drag-icon:before{
+		content:"\f58d \00a0";
+		font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+
+	}
+
+   .info-icon:before{
+        content:"\f059 \00a0";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        cursor: pointer;
+
+    }
+
+
+    .sgsc-copy-icon:before{
+        content:"\f0c5 \00a0";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+
+    }
+
+
+.map-icon:before{
+        content:"\f0c1 \00a0";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+
+    }
+
+	.input-icon:before {
+    content: "\f893 \00a0";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    margin-right: 10px;
+    color:var(--sgsc-green);
+}
+
+
+.edit-icon:before {
+    content: "\f044 \00a0";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    margin-right: 10px;
+    color:var(--sgsc-green);
+}
+
+
+
+.checkbox-icon:before {
+    content: "\f14a \00a0";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+
+    margin-right: 10px;
+    color:var(--sgsc-green);
+}
+
+
+.slider-icon:before {
+    content: "\f1de \00a0";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+
+    margin-right: 10px;
+    color:var(--sgsc-green);
+}
+
+
+[data-alert="1"]:before {
+    content: "\00a0 \f671";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+
+    color:orange;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.dropdown-icon:before{content: "\f150 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.date-icon:before{content: "\f783 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.file-icon:before{content: "\f0ee \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.divider-icon:before{content: "\f86c \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.break-icon:before{content: "\f877 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.button-icon:before{content: "\f245 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+
+
+.heading-icon:before{content: "\f1dc \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.paragraph-icon:before{content: "\f1dd \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.readonly-icon:before{content: "\f87d \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.piechart-icon:before{content: "\f200 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.linechart-icon:before{content: "\f201 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.table-icon:before{content: "\f0ce \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+.image-icon:before{content: "\f302 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;margin-right: 10px;color:var(--sgsc-green);}
+
+
+
+.sgsc-trash-icon:before{content: "\f2ed \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;}
+.sgsc-config-icon:before{content: "\f013 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;}
+.sgsc-grip-icon:before{content: "\f58d \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;}
+.sgsc-pro-icon:before{content: "\f521 \00a0";font-family: "Font Awesome 5 Pro";font-weight: 900;}
+

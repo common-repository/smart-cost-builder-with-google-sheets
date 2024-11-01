@@ -1,0 +1,55 @@
+
+	.sgsc-nav-items{
+		padding: 12px;
+
+	}
+
+	.sgsc-heading-5 {
+    display: block;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+}
+
+	.sgsc-field-desc{font-size: 14px;}
+	.sgsc-drag-icon{visibility: hidden;}
+  .sgsc-drag-icon.sgsc-pro-icon {
+    visibility: visible;
+    opacity: 1;
+    color: #e8ca26;
+}
+
+.sgsc-pro-icon {
+    visibility: visible;
+    opacity: 1;
+    color: #e8ca26;
+}
+
+	.sgsc-sidebar-item {
+    align-items: center;
+    background-color: #eef1f7;
+    border: 1px solid #0000;
+    border-radius: 4px;
+    cursor: pointer;
+
+    display: flex;
+/*    justify-content: space-between;*/
+
+    margin-bottom: 4px;
+    padding: 7px 9px;
+    position: relative;
+    transition: background-color .2s linear;
+}
+
+.sgsc-drag-icon {
+  opacity: 0; /* Make the drag icon initially invisible */
+  transition: opacity 0.2s ease-in-out; /* Smooth transition for the opacity change */
+  margin-left: auto;
+}
+
+.sgsc-sidebar-item:hover .sgsc-drag-icon{
+	visibility: visible;
+	opacity: 1;
+}
+

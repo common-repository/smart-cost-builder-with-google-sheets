@@ -1,0 +1,34 @@
+
+    .sgsc-form-area {
+  position: relative; /* Needed to position the overlay absolutely within the area */
+  /*width: 100%;
+  min-width: 600px;
+  border: 1px solid red;
+  min-height: 500px;*/
+}
+
+.sgsc-popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: flex-end; /* Align the modal to the right */
+  z-index: 999;
+}
+
+.sgsc-popup-modal {
+  width: 40%;
+  max-width: 500px;
+/*  height: 100%;*/
+  background: #fff; /* White background for the modal */
+  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.2); /* Optional: add some shadow for depth */
+  overflow-y: auto; /* Enable scroll if content exceeds the height */
+  padding: 20px;
+}
+
+.sgsc-close-modal {
+  /* Style your close button here */
+}

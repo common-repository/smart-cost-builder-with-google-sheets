@@ -1,0 +1,2 @@
+function sgsc_cal_error(){window.open("?page=WPBOX_SGSC_settings&msg=lim","_self")}
+function get_sgsc_usage(){jQuery.ajax({url:"https://wppluginbox.com/api-sgsc/free_usage/index.php",type:"GET",data:"domain="+window.location.host,cache:!1}).done(function(s){s=JSON.parse(s);jQuery('[sgsc-hits-usage="1"]').text(s.hits_count+" Hits"),jQuery('[sgsc-quota-reset="1"]').text(s.quota_reset_hours_left+" Hours")})}

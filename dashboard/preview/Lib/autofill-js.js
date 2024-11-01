@@ -1,0 +1,2 @@
+
+function onready_jobs(){$("input[data-def]").each(function(t,a){var e=$(this).attr("data-def"),e=""==e?$(this).val():e;$(this).val(e).trigger("change")}),$('select[data-cell^="input-"]').each(function(t,a){var e=$(this).attr("data-def"),e=""==e?$(this).val():e;$(this).val(e).trigger("change")}),$('[data-type="date"]').each(function(t,a){var e=$(this).attr("data-def"),e=""==e?$(this).val():e;$(this).val(e).trigger("change")}),$(".checkbox-option.checked").each(function(t,a){$(this).trigger("click"),$(this).trigger("click")})}$(document).ready(function(){onready_jobs()});

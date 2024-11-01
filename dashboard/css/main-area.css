@@ -1,0 +1,59 @@
+
+	.sortable-placeholder {
+  border: 1px dashed #ccc;
+  background: #f0f0f0;
+  height: 50px; /* Adjust based on your item height */
+  margin-bottom: 2px; /* Adjust if necessary */
+}
+
+
+
+
+	[data-element-name="1"]{font-weight: 700;}
+	.sgsc-item-opt-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.sgsc-ele-items {
+    display: block;
+    width: 24px;
+    font-size: 16px;
+    padding: 4px;
+    background-color: whitesmoke;
+    margin-right: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+	.sgsc-sub-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.sgsc-input-desc{
+		font-size: 12px;
+	}
+
+
+
+	.sgsc-form-area,.sgsc-result-area{
+/*		margin: auto;*/
+/*		width: 100%;*/
+/*		min-width: 600px;*/
+/*		border:1px solid red;*/
+		min-height: 500px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.sgsc-dropped-item{
+		background-color: white;
+		height: 40px;
+		padding: 20px;
+		width: 430px;
+		margin-bottom: 5px;
+		text-align: left;
+
+		font-size: 11px;
+	}
